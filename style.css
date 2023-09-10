@@ -30,3 +30,23 @@
 .menu li a:hover{
     color: #019285;
 }
+
+/*-------------------------------------------*/
+
+.my_description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C7C7C7;
+}
+
+.logo1{
+    padding: 80px 50px;
+    width: 30%;
+}
+.my_description div{
+   text-align: center ;
+    margin: 0 auto;
+
+}
+
