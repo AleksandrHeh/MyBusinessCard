@@ -1,0 +1,32 @@
+*{
+    padding: 0; margin: 0;
+}
+.header_wrap{
+    background-color: #C7C7C7;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 150px 15px 15px;
+    box-sizing: border-box;
+    /*max-width: 1630px;*/
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-left: 70px;
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #019285;
+}
