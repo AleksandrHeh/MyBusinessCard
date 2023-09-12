@@ -65,22 +65,29 @@
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
+    margin-top:5%;
 }
 
 /*----------------------------*/
-.NoName{
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    background-color: #019285;
+
+.photos {
+    text-align: center;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    background: #019285;
+    margin-top:5%;
 }
 
-.NoName ul{
-    display: flex;
+.photos a {
+    width: 20%;
+    display: block;
+    float: left;
+    line-height: 0;
 }
 
-.NoName ul li{
-    padding: 10px;
-    margin-left: 70px;
-    list-style: none;
+.photos img {
+    width: 30%;
+    height: auto;
+    padding: 30px;
 }
+
