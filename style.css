@@ -3,23 +3,26 @@
 }
 .header_wrap{
     background-color: #C7C7C7;
+    border-bottom: 2px #a2a2a2 solid;
 }
+
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 150px 15px 15px;
+    padding: 30px 100px 15px 15px;
     box-sizing: border-box;
-    /*max-width: 1630px;*/
+    max-width: 1630px;
     margin: 0 auto;
 }
+
 .menu{
     display: flex;
     list-style: none;
 }
 
 .menu li{
-    margin-left: 70px;
+    margin-left: 40px;
 }
 
 .menu li a{
@@ -34,6 +37,8 @@
 /*-------------------------------------------*/
 
 .my_description{
+    max-width: 1930px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,7 +53,7 @@
 }
 
 .logo1 img{
-    border-radius: 10px;
+    border-radius: 35px;
 }
 .my_description div{
    text-align: center ;
@@ -63,18 +68,24 @@
     max-width: 1080px;
     min-width: 320px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0px 15px;
     box-sizing: border-box;
     margin-top:5%;
 }
 
+.my_descripstion2 p{
+    margin: 40px 0px;
+    font-size: 20px;
+}
 /*----------------------------*/
 
 .photos {
+    max-width: 1930px;
+    margin: 0 auto;
+    justify-content: space-between;
     text-align: center;
-    margin: 0 0 20px 0;
     overflow: hidden;
-    background: #019285;
+    background: #3DD1C8;
     margin-top:5%;
 }
 
@@ -91,3 +102,70 @@
     padding: 30px;
 }
 
+/*---------------------------*/
+
+.MySkills{
+   text-align: center;
+}
+/*------------------------------*/
+.want_to_connect_with_me{
+    background-color: #C7C7C7;
+    text-align: center;
+    padding: 30px;
+}
+/*----------------------------------*/
+.want_to_connect_with_me{
+    max-width: 1930px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.want_to_connect_with_me div input {
+    margin: 20px;
+    padding: 5px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px black solid;
+    background-color: #E7E7E7;
+    font-size: 18px;
+}
+.want_to_connect_with_me div textarea{
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 660px;
+    height: 140px;
+    border-radius: 5px;
+    border: 2px black solid;
+    background-color: #E7E7E7;
+    font-size: 18px;
+}
+
+.want_to_connect_with_me button{
+    width: 175px;
+    height: 45px;
+    background-color: #3DD1C8;
+    border: 1px #3DD1C8 solid;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.want_to_connect_with_me button:hover{
+    background-color: #2dcbc2;
+}
+/*-----------------------------*/
+footer{
+    padding: 40px;
+    max-width: 1910px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #3DD1C8;
+}
+
+footer p{
+    font-size: 20px;
+    padding: 5px 80px;
+}
+
+footer h1{
+    padding: 0 100px;
+}
